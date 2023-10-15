@@ -1,0 +1,13 @@
+a =float(input("to input a "))
+b =float(input("to input b "))
+c =float(input("to input c "))
+# calculate  t
+t = b**2-4*a*c
+if t<0  :
+    print("this equationt doesn't have solution")
+elif t==0:
+    print("x=", -b/2*a)
+else :
+    print("X1 =", (-b + t**0.5)/2*a)
+    print("X2=", (-b-t**0.5)/2*a)
+    
